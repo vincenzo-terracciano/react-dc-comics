@@ -8,7 +8,7 @@
 
 .container {
   margin: auto;
-  margin-left: 100px;
+  margin: 0 100px;
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
@@ -45,7 +45,7 @@
 
 .cont {
   margin: auto;
-  margin-left: 100px;
+  margin: 0 100px;
 }
 
 .primary {
@@ -79,5 +79,68 @@
         padding-left: 0.5rem;
       }
     }
+  }
+}
+
+/* Footer */
+.utility {
+  background-image: url(/footer-bg.jpg);
+  min-height: 200px;
+  padding-bottom: 4rem;
+  position: relative;
+
+  .link {
+    display: flex;
+    gap: 2rem;
+
+    h4 {
+      color: white;
+      padding: 0.75rem 0;
+    }
+
+    ul {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: gray;
+      }
+    }
+  }
+
+  .logo {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+}
+
+.sign-up {
+  background-color: rgb(57, 57, 57);
+  padding: 2rem 0;
+
+  .cont {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    background-color: rgb(57, 57, 57);
+    border: 1px solid deepskyblue;
+    padding: 0.5rem;
+    color: white;
+  }
+
+  ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    color: deepskyblue;
   }
 }
