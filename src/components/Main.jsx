@@ -1,11 +1,16 @@
 import ComicsList from "./ComicsList"
+import Jumbotron from "./Jumbotron"
 
 export default function Main() {
     return (
         <main>
+            <Jumbotron />
             <section className="dark">
                 <div className="cont">
                     <ComicsList />
+                    <div className="btn-case">
+                        <button type="button" className="load">LOAD MORE</button>
+                    </div>
                 </div>
             </section>
             <section className="primary">
