@@ -3,7 +3,7 @@ export default function Card({ title, thumb }) {
         <div className="col-2">
             <div className="card">
                 <img src={thumb} alt={title} />
-                <div>{title}</div>
+                <h6>{title}</h6>
             </div>
         </div>
     )
