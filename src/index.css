@@ -7,8 +7,8 @@
 /* Header */
 
 .container {
+  width: 80%;
   margin: auto;
-  margin: 0 100px;
   padding-top: 1rem;
   display: flex;
   justify-content: space-between;
@@ -44,8 +44,8 @@
 }
 
 .cont {
+  width: 80%;
   margin: auto;
-  margin: 0 100px;
 }
 
 .primary {
@@ -82,12 +82,33 @@
   }
 }
 
+img {
+  max-width: 100%;
+}
+
+h2 {
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col-2 {
+  width: calc((100% / 12) * 2);
+  padding: 1rem;
+  color: white;
+}
+
 /* Footer */
 .utility {
   background-image: url(/footer-bg.jpg);
   min-height: 200px;
   padding-bottom: 4rem;
   position: relative;
+  overflow: hidden;
 
   .link {
     display: flex;
@@ -110,8 +131,8 @@
 
   .logo {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 1%;
+    right: 5%;
   }
 }
 
@@ -122,6 +143,7 @@
   .cont {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   button {
