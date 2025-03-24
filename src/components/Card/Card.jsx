@@ -1,9 +1,9 @@
-export default function Card({ title, thumb }) {
+export default function Card({ series, thumb }) {
     return (
         <div className="col-2">
             <div className="card">
-                <img src={thumb} alt={title} />
-                <h6>{title}</h6>
+                <img src={thumb} alt={series} />
+                <h6>{series}</h6>
             </div>
         </div>
     )

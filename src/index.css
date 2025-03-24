@@ -170,6 +170,11 @@ h2 {
   width: calc((100% / 12) * 2);
   padding: 1rem;
   color: white;
+
+  h6 {
+    text-transform: uppercase;
+    padding-top: 0.5rem;
+  }
 }
 
 /* Footer */

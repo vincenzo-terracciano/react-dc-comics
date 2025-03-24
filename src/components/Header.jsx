@@ -7,7 +7,7 @@ export default function Header() {
                 <img src="./dc-logo.png" alt="" />
                 <ul>
                     {
-                        links.map((link, index) => <li key={index}><a href="#">{link}</a></li>)
+                        links.map((link, index) => (<li key={index}><a href="#">{link}</a></li>))
                     }
                 </ul>
             </div>
