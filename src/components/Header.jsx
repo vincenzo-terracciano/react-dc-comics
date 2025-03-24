@@ -1,14 +1,13 @@
+import Logo from "./Logo"
+import Nav from "./Nav"
+
 export default function Header({ links }) {
 
     return (
         <header>
             <div className="container">
-                <img src="./dc-logo.png" alt="" />
-                <ul>
-                    {
-                        links.map((link, index) => (<li key={index}><a href="#">{link}</a></li>))
-                    }
-                </ul>
+                <Logo />
+                <Nav links={links} />
             </div>
         </header>
     )

@@ -1,7 +1,7 @@
 import Card from "./Card/Card";
 import comics from "../data/comics";
 
-export default function ComicsList() {
+export default function ComicsList({ comics }) {
 
     return (
         <section className="comics">
@@ -9,7 +9,7 @@ export default function ComicsList() {
             <div className="cont">
                 <div className="row">
                     {
-                        comics.map(comic => (<Card key={comic.id} thumb={comic.thumb} series={comic.series} />))
+                        comics.map(comic => (<Card key={comic.id} comic={comic} />))
                     }
 
                 </div>
