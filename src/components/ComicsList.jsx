@@ -1,5 +1,4 @@
 import Card from "./Card/Card";
-import comics from "../data/comics";
 
 export default function ComicsList({ comics }) {
 
