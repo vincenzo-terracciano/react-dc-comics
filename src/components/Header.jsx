@@ -1,5 +1,4 @@
-export default function Header() {
-    const links = ['CHARACTERS', 'COMICS', 'MOVIES', 'TV', 'GAMES', 'COLLECTIBLES', 'VIDEOS', 'FANS', 'NEWS', 'SHOP'];
+export default function Header({ links }) {
 
     return (
         <header>
