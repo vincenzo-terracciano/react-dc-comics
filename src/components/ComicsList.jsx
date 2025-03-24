@@ -1,6 +1,7 @@
 import Card from "./Card/Card";
 
 export default function ComicsList() {
+
     return (
         <section className="comics">
             <h2>CURRENT SERIES</h2>

@@ -61,7 +61,7 @@
 /* Main */
 
 .jumbotron {
-  background-image: url(/public/jumbotron.jpg);
+  background-image: url(/jumbotron.jpg);
   min-height: 300px;
   background-size: cover;
 }
